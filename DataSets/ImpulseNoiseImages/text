@@ -1,0 +1,11 @@
+The code may be effective in reducing impulse noise to some extent, but the exact percentage of noise removal will vary depending on the following factors:
+
+    Noise Intensity: The code's effectiveness in removing impulse noise depends on how intense the noise is in the image. If the impulse noise is relatively light, the code may perform better.
+
+    Image Content: The content and complexity of the image can affect noise removal. In complex and textured regions, it may be more challenging to remove noise without affecting the image's details.
+
+    Code Parameters: The code uses specific parameters for noise removal and filtering, such as the bilateral filter parameters (d, sigmaColor, sigmaSpace). Adjusting these parameters may improve or reduce the effectiveness of noise removal.
+
+    Thresholds: The code uses a threshold of 0 and 255 to identify pixels for processing. Depending on the specific impulse noise distribution in your image, you may need to adjust these thresholds.
+
+    Image Size: The size of the image also plays a role. In larger images, noise might be less noticeable compared to smaller images.
